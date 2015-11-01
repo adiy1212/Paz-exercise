@@ -1,0 +1,129 @@
+/* content wrap */
+div.content-wrap {
+	
+	margin: 0 auto;
+	max-width: 1000px;
+	position: relative;
+	top: 111px;
+	height: 900px;
+}
+
+/* main menu*/
+/*ul#main-menu li a span.homeimage{
+ margin:0;
+ padding:0;
+ background-image:url("menu_home.png");
+ background-size: ;
+ background-position: ;
+ }*/
+/* side menu design*/
+nav#about-menu {
+	direction: rtl;
+	text-align: right;
+	float: right;
+}
+ul#side-menu {
+	border-top: 1px solid #dedede;
+	
+}
+ul#side-menu li {
+	display: block;
+	width: 122px;
+	min-height: 36px;
+	
+}
+ul#side-menu li a {
+	text-decoration: none;
+	text-align: right;
+	background: url("http://www.paz.co.il/images/side_menu_sprite.png") no-repeat 0 0;
+	display: block;
+	width: 110px;
+	height: 36px;
+	overflow: hidden;
+	padding-right: 12px;
+	font-size: 13px;
+	color: #5c5c5c;
+	line-height: 32px;
+}
+ul#side-menu li a:hover {
+	background-position: -122px 0;
+}
+/* about content  */
+div#about-content {
+	direction: rtl;
+	text-align: right;
+	float: right;
+	margin-right: 18px;
+	width:48%;
+	color: #72716d;
+	font-size: 12px;
+}
+/*index map */
+div.index-map {
+	font-size: 12px;
+	color: #5c5c5c;
+	margin-bottom: 25px;
+	margin-top: 2px;
+}
+div#about-content h1 {
+	font-size: 15px;
+	font-weight: bold;
+	border-bottom: 1px solid #cbcbcb;
+	margin-bottom: 12px;
+	padding-bottom: 4px;
+}
+/*about text content  */
+div#about-sections {
+	width: 100%;
+	line-height: 16px;
+	text-align: justify;
+	
+}
+#about-sections h2 {
+	font-size: 12px;
+	font-weight: bold;
+	color: #005ca0;
+}
+#about-sections p{
+	text-decoration: none;
+	
+}
+
+/*history block */
+div#historyblock {
+	background: url("cube_bg.png") no-repeat 0 0;
+	width: 250px;
+	height: 150px;
+	float: right;
+	padding: 18px 22px 15px;
+	margin: 54px 27px 0 0 ;
+}
+div#history-content{
+	direction: rtl;
+	text-align: right;
+	font-size:12px;
+	color: #6d6d6d;
+}
+div#historyblock h3{
+	text-align:right;
+	font-size: 15px;
+    font-weight: bold;
+    color: #005ca0;
+    margin-bottom: 10px;
+} 
+div#history-content h2{
+	text-align:right;
+	font-size: 12px;
+    font-weight: bold;
+    color: #005ca0;
+}
+div#history-content p{
+	word-spacing: 4px;
+}
+
+div#history-content span a{
+	color:#0000F4;
+	font-weight: bold;
+}
+    
+/* */

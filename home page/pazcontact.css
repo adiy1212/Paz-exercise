@@ -1,0 +1,112 @@
+
+
+
+/*contact forms */
+div#contact-forms{
+background:;
+width: 350px;
+height: 330px;
+border: 1px solid #cccccc;
+border-bottom: none;border-top-right-radius: 20px;
+padding: 10px 20px;
+float:right;
+}
+
+div#contact-forms h2{
+	font-size: 15px;
+	color:#005CA0;
+	margin-bottom: 4px;
+}
+div#contact-forms span#details-span{
+	color:#6D6D6D;
+	font-size:13px;
+	font-weight:bold;
+	line-height: 15px;
+}
+div#contact-forms span#marker-span{
+	line-height: 24px;
+	
+}
+/* form block */
+div#form-fields{
+	max-width: 248px; 
+	margin: 0 auto;
+}
+div.form-line{
+	margin-bottom: 3px;
+}
+ div.form-line label{
+ 	display: inline-block;
+	width: 75px;
+	color:#6D6D6D;
+}
+div.form-line input{
+	
+	width: 160px;
+	border: 1px solid #808992;
+	margin: 0px 3px 3px 0px ;
+	height: 20px;
+}
+div.form-line textarea{
+	width: 235px;
+    height: 100px;
+    padding: 3px;
+    border: 1px solid #808992;
+    color: #6D6D6D;
+   	font-family:Arial;
+}
+::-webkit-input-placeholder{
+	color: #6D6D6D;
+   	font-family:Arial;
+}
+
+div#form-fields button{
+	background: url("http://www.paz.co.il/images/button_blue.png") repeat-x 0 0;
+	color:#FFFFFF;
+	border-top-right-radius: 5px;
+	border: 1px solid #DADADA;
+	padding:2px;
+	width: 40px;
+	float: left;
+}
+
+/* side blocks*/
+div.side-blocks{
+	position: relative;
+	top: 56px;
+	left: 5px;
+}
+div#contact-details,div#more-block{
+	background: url("cube_bg.png") no-repeat 0 0;
+	width: 250px;
+	height: 140px;
+	padding: 18px 22px 15px;
+	text-align: right;
+	direction:rtl;
+	font-size:13px;
+	color:#6D6D6D;
+}
+div.side-blocks h3{
+	
+	font-size: 15px ;
+	font-weight:bold ;
+	color:#005ca0;
+}
+p.detail-head-bold{
+	font-weight:bold;
+	margin-top: 11px;
+}
+/* sec block*/
+div#more-block{
+	margin-top: 20px;
+}
+#more-block p a{
+	color:#0000EE;
+}
+
+
+
+
+
+
+
